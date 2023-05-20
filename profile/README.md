@@ -1,12 +1,10 @@
-# Xila
-
 <h2>
 <p align="center">
 <a href="https://xila.dev">🌍 xila.dev 🌍</a>
 </p>
 </h2>
 
-## 📰 Introduction
+# 📰 Introduction
 
 Xila is a lightweight operating system (like [Contiki](https://github.com/contiki-os/contiki "Contiki") or [TinyOS](https://github.com/tinyos/tinyos-main "TinyOS")) for embedded devices (currently only the ESP32 is supported). Its goal is to offer a simple standardized API. In this way, that allows the integration of different software in one unique ecosystem, which is easy to port (only the HAL of Xila needs to be rewrite). I hope you would like it !
 
@@ -16,23 +14,15 @@ Xila is a lightweight operating system (like [Contiki](https://github.com/contik
 - [GadgetOS (ex-PyxisOS)](https://www.skewworks.com/pyxis "GadgetOS (ex-PyxisOS)") - [Skewworks](https://www.skewworks.com "Skewworks")
 
 
-## 📖 Table of contents
+# Repositories
 
-- [Xila](#xila)
-  - [📰 Introduction](#-introduction)
-  - [📖 Table of contents](#-table-of-contents)
-  - [🚦 Status](#-status)
-  - [📄 Support](#-support)
-    - [⏩ Quick start](#-quick-start)
-      - [🔰 Using](#-using)
-      - [💻 Develop](#-develop)
-      - [🔬 Contribute](#-contribute)
-  - [✅ Features](#-features)
-    - [⭕ Core](#-core)
-    - [🟠 Software](#-software)
-  - [❓ About](#-about)
-    - [🖋️ Credits](#️-credits)
-    - [🧾 License](#-license)
+| Repository | Description |
+| :--- | :--- |
+| [Code](https://github.com/Xila-Project/Code) | This repository contains the code of Xila. |
+| [Documentation](https://github.com/Xila-Project/Documentation) | This repository contains the [documentation](https//documentation.xila.dev) of the whole project. |
+| [Website](https://github.com/Xila-Project/Website) | This repository contains the source code of the [website](https://xila.dev) of Xila. |
+| [Berry Software Template](https://github.com/Xila-Project/Berry_Software_Template) | This repository contains a template to create software for Xila with [Berry](https://github.com/berry-lang/berry). |
+| [Rangefinder](https://github.com/Xila-Project/Rangefinder), [Calculator](https://github.com/Xila-Project/Calculator), etc. | These repositories contains the software that are developed for Xila for example purposes. |
 
 ## 🚦 Status
 
@@ -68,7 +58,7 @@ This project is open to contributions of any kinds. Feel free to open an issue o
 
 Here are the feature that are implemented in the core :
 
-
+TODO
 
 ## ❓ About
 
