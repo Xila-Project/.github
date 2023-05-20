@@ -30,9 +30,8 @@ Xila is a lightweight operating system (like [Contiki](https://github.com/contik
 | :--- | :---: |
 | Code - Build | [![PlatformIO CI](https://github.com/AlixANNERAUD/Xila/actions/workflows/build_code.yml/badge.svg)](https://github.com/AlixANNERAUD/Xila/actions/workflows/build_code.yml) |
 | Code - Quality | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/680473cc9fca4e059c6055d93315f65c)](https://app.codacy.com/gh/Xila-Project/Code/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) |
-| Code - Test coverage | [![Coverage Status](https://coveralls.io/repos/github/AlixANNERAUD/Xila/badge.svg?branch=main)](https://coveralls.io/github/AlixANNERAUD/Xila?branch=main) |
-| Documentation - Build | [![Documentation Status](https://readthedocs.org/projects/xila/badge/?version=latest)](https://xila.readthedocs.io/en/latest/?badge=latest) |
-| Site - Build| [![Deploy Hugo site to Pages](https://github.com/AlixANNERAUD/Xila_Site/actions/workflows/hugo.yml/badge.svg)](https://github.com/AlixANNERAUD/Xila_Site/actions/workflows/hugo.yml) |
+| Documentation - Build | [![Documentation Status](https://readthedocs.org/projects/xila-documentation/badge/?version=latest)](https://documentation.xila.dev/en/latest/?badge=latest) |
+| Website - Build| [![Deploy Hugo site to Pages](https://github.com/Xila-Project/Website/actions/workflows/hugo.yml/badge.svg)](https://github.com/Xila-Project/Website/actions/workflows/hugo.yml) |
 
 ## 📄 Support
 
