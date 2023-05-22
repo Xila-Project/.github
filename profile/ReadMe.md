@@ -6,7 +6,9 @@
 
 # 📬 Introduction
 
-Xila is a lightweight operating system designed for embedded devices, similar to [Contiki](https://github.com/contiki-os/contiki "Contiki") or [TinyOS](https://github.com/tinyos/tinyos-main "TinyOS"). Its primary objective is to provide a standardized a simple API, enabling seamless integration of various software components into a single ecosystem. The portability of Xila is straightforward, requiring only the rewriting of the hardware abstraction layer.
+Xila is a lightweight **operating system** designed for **embedded devices**, similar to [Contiki](https://github.com/contiki-os/contiki "Contiki") or [TinyOS](https://github.com/tinyos/tinyos-main "TinyOS"). Its primary objective is to provide a standardized a simple API, enabling seamless integration of various software components into a single ecosystem. The portability of Xila is straightforward, requiring only the rewriting of the hardware abstraction layer.
+
+Currently, Xila is **in development**, and the API is subject to change. **Do not use for critical applications.**
 
 ## 💭 Inspired by :
 
@@ -16,9 +18,35 @@ Xila is a lightweight operating system designed for embedded devices, similar to
 
 ## ✅ Features
 
-Here are the feature that are implemented in the core :
+Here is a list of the features that Xila offers :
 
-TODO
+- A complete and easy to use API split into modules :
+  - Management :
+    - 👥 Accounts : multi-user support.
+    - 📊 Graphics : support for easy GUI development.
+    - ⚙️ System : system management.
+    - 📦 Softwares : softwares management.
+    - 🔌 Power : power management.
+  - Abstraction :
+    - 💾 Drive and file system.
+    - 🖥️ Display.
+    - Communication : WiFi, Bluetooth (soon).
+    - ⚡️ Flash : Flash memory management.
+    - 🧠 Memory : RAM and PSRAM management.
+    - ↔️ Pin : Inputs / Outputs.
+    - ⌨️ Keyboard : PS2 external keyboard support.
+    - 🔈 Sound : multi-inputs / outputs from : I2S, MP3, WAV, Files ...
+  - Complementary
+    - 📝 Log : simple logging system (serial output).
+    - 📋 Clipboard : simple system-shared clipboard.
+    - 🧮 Mathematics : advanced mathematics functions.
+  
+- [Hardware development kit](https://github.com/Xila-Project/Hardware).
+- Driver system to fit any type of architecture.
+- High level Python-like programming language support : [Berry](https://berry-lang.github.io/).
+- Graphical [Shell](https://github.com/Xila-Project/Shell).
+- Multiple native software : [File manager](https://github.com/Xila-Project/File_Manager), [Preferences](https://github.com/Xila-Project/Preferences).
+- Multiple berry software : [REPL](https://github.com/Xila-Project/Berry_REPL), [Rangefinder](https://github.com/Xila-Project/Rangefinder), [Calculator](https://github.com/Xila-Project/Calculator), etc.
 
 # 📖 Repositories
 
@@ -62,6 +90,6 @@ If you have any questions or propositions, feel free to open a discussion or iss
 
 You can find the dependencies and reused code [here](https://documentation.xila.dev/en/latest/About/Credits.html).
 
-Xila is under [M.I.T. license](https://alix-anneraud.mit-license.org/ "M.I.T. licence").
+Xila is under [M.I.T. license](https://alix-anneraud.mit-license.org/).
 
 Alix ANNERAUD
