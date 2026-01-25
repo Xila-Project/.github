@@ -12,14 +12,13 @@
   <a href="https://documentation.xila.dev/demonstrations/wasm/en/">🎬 Demonstrations</a> •
   <a href="https://www.xila.dev/guide/">📖 Guide</a> •
   <a href="https://www.xila.dev/reference/">📚 Reference</a> •
-  <a href="mailto:contact@xila.dev">✉️ Contact</a> •
-  <a href="https://matrix.to/#/#xila:anneraud.fr">💬 Matrix</a>
+  <a href="mailto:contact@xila.dev">✉️ Contact</a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Rust-orange?style=flat-square&logo=rust" alt="Rust">
   <img src="https://img.shields.io/badge/Runtime-WASM-624de3?style=flat-square&logo=webassembly" alt="WASM">
-  <img src="https://img.shields.io/matrix/xila%3Amatrix.org?style=flat-square&logo=matrix&label=matrix" alt="Matrix">
+  <a href="https://matrix.to/#/#xila:anneraud.fr" rel="noopener" target="_blank"><img src="https://matrix.to/img/matrix-badge.svg" alt="Chat on Matrix"></a>
 </p>
 
 ---
