@@ -1,95 +1,68 @@
-<h2>
+<h1 align="center">
+  <img src="https://www.xila.dev/images/logo_dark.svg" alt="Xila Logo" style="height: 1em; vertical-align: middle;"> Xila
+</h1>
+
 <p align="center">
-<a href="https://xila.dev">🌍 xila.dev 🌍</a>
+  <strong>A modern, memory-safe operating system for embedded systems.</strong><br>
+  Rewritten in <b>Rust</b>. Powered by <b>WebAssembly</b>.
 </p>
-</h2>
 
-# 📬 Introduction
+<p align="center">
+  <a href="https://xila.dev">🌍 Website</a> •
+  <a href="https://documentation.xila.dev/demonstrations/wasm/en/">🎬 Demonstrations</a> •
+  <a href="https://www.xila.dev/guide/">📖 Guide</a> •
+  <a href="https://www.xila.dev/reference/">📚 Reference</a> •
+  <a href="mailto:contact@xila.dev">✉️ Contact</a> •
+  <a href="https://matrix.to/#/#xila:anneraud.fr">💬 Matrix</a>
+</p>
 
-Xila is a lightweight **operating system** designed for **embedded devices**, similar to [Contiki](https://github.com/contiki-os/contiki "Contiki") or [TinyOS](https://github.com/tinyos/tinyos-main "TinyOS"). Its primary objective is to provide a standardized a simple API, enabling seamless integration of various software components into a single ecosystem. The portability of Xila is straightforward, requiring only the rewriting of the hardware abstraction layer.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Rust-orange?style=flat-square&logo=rust" alt="Rust">
+  <img src="https://img.shields.io/badge/Runtime-WASM-624de3?style=flat-square&logo=webassembly" alt="WASM">
+  <img src="https://img.shields.io/matrix/xila%3Amatrix.org?style=flat-square&logo=matrix&label=matrix" alt="Matrix">
+</p>
 
-Currently, Xila is **in development**, and the API is subject to change. **Do not use for critical applications.**
+---
 
-## 💭 Inspired by :
+## ⚡ The Evolution
 
-- [BASIC 80's Pocket Computer](https://www.youtube.com/watch?v=Hjdj14C_jAI "BASIC 80's Pocket Computer") - [Benjamin HECKENDORN](https://www.benheck.com/ "Benjamin HECKENDORN")
-- [MultiApp Advanced](https://github.com/botofancalin/M5Stack-MultiApp-Advanced "MultiApp Advanced") - [botofancalin](https://github.com/botofancalin "botofancalin")
-- [GadgetOS (ex-PyxisOS)](https://www.skewworks.com/pyxis "GadgetOS (ex-PyxisOS)") - [Skewworks](https://www.skewworks.com "Skewworks")
+Xila has been completely reimagined. We have moved away from the legacy C++/Berry architecture to a modern stack built on **Rust** for maximum memory safety and **WebAssembly (WASM)** for a high-performance, sandboxed application ecosystem.
 
-## ✅ Features
+### Why the rewrite?
 
-Here is a list of the features that Xila offers :
+- **Memory Safety:** Leveraging Rust to eliminate common embedded bugs at compile-time.
+- **WASM Portability:** Applications are language-agnostic. Develop in any language that targets WebAssembly.
+- **Security:** Sandboxed execution of software components.
+- **Performance:** Near-native execution speeds on microcontrollers.
 
-- A complete and easy to use API split into modules :
-  - Management :
-    - 👥 Accounts : multi-user support.
-    - 📊 Graphics : support for easy GUI development.
-    - ⚙️ System : system management.
-    - 📦 Softwares : softwares management.
-    - 🔌 Power : power management.
-  - Abstraction :
-    - 💾 Drive and file system.
-    - 🖥️ Display.
-    - Communication : WiFi, Bluetooth (soon).
-    - ⚡️ Flash : Flash memory management.
-    - 🧠 Memory : RAM and PSRAM management.
-    - ↔️ Pin : Inputs / Outputs.
-    - ⌨️ Keyboard : PS2 external keyboard support.
-    - 🔈 Sound : multi-inputs / outputs from : I2S, MP3, WAV, Files ...
-  - Complementary
-    - 📝 Log : simple logging system (serial output).
-    - 📋 Clipboard : simple system-shared clipboard.
-    - 🧮 Mathematics : advanced mathematics functions.
-  
-- [Hardware development kit](https://github.com/Xila-Project/Hardware).
-- Driver system to fit any type of architecture.
-- High level Python-like programming language support : [Berry](https://berry-lang.github.io/).
-- Graphical [Shell](https://github.com/Xila-Project/Shell).
-- Multiple native software : [File manager](https://github.com/Xila-Project/File_Manager), [Preferences](https://github.com/Xila-Project/Preferences).
-- Multiple berry software : [REPL](https://github.com/Xila-Project/Berry_REPL), [Rangefinder](https://github.com/Xila-Project/Rangefinder), [Calculator](https://github.com/Xila-Project/Calculator), etc.
+## 🏗️ Architecture
 
-# 📖 Repositories
+Xila acts as a lightweight kernel and abstraction layer for microcontrollers (primarily ESP32-S3), providing:
 
-| Repository | Description |
-| :--- | :--- |
-| [Code](https://github.com/Xila-Project/Code) | Contains the source code. |
-| [Documentation](https://github.com/Xila-Project/Documentation) | Contains the sources of the [documentation](https//documentation.xila.dev). |
-| [Website](https://github.com/Xila-Project/Website) | Contains the source code of the [website](https://xila.dev). |
-| [Berry Software Template](https://github.com/Xila-Project/Berry_Software_Template) | Template repository to create software for Xila with [Berry](https://github.com/berry-lang/berry). |
-| [Assets](https://github.com/Xila-Project/Assets) | Contains the assets (images, sounds, etc.). |
-| [Hardware](https://github.com/Xila-Project/Hardware) | Contains the design (case, pcb, schematics, etc.) of hardware development kit. |
-| [Shell](https://github.com/Xila-Project/Shell) | Contains the source code of the shell software. |
-| [File Manager](https://github.com/Xila-Project/File_Manager) | Contains the source code of the file manager software. |
-| [Preferences](https://github.com/Xila-Project/Preferences) | Contains the source code of the preferences software. |
-| [Berry_REPL](https://github.com/Xila-Project/Berry_REPL), [Rangefinder](https://github.com/Xila-Project/Rangefinder), [Calculator](https://github.com/Xila-Project/Calculator), etc. | Contains berry softwares that are developed for example purposes. |
+- **Core:** The Rust-based heartbeat managing hardware abstraction and task scheduling.
+- **WASM Runtime:** A portable execution engine for sandboxed binaries.
+- **Unified API:** Simplified interfaces for graphics, connectivity, and storage.
 
-# 🚦 Status
+## 📂 Repositories
 
-| Part | Status |
-| :--- | :---: |
-| Code - Build | [![PlatformIO CI](https://github.com/AlixANNERAUD/Xila/actions/workflows/build_code.yml/badge.svg)](https://github.com/AlixANNERAUD/Xila/actions/workflows/build_code.yml) |
-| Code - Quality | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/680473cc9fca4e059c6055d93315f65c)](https://app.codacy.com/gh/Xila-Project/Code/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) |
-| Documentation - Build | [![Documentation Status](https://readthedocs.org/projects/xila-documentation/badge/?version=latest)](https://documentation.xila.dev/en/latest/?badge=latest) |
-| Website - Build| [![Deploy Hugo site to Pages](https://github.com/Xila-Project/Website/actions/workflows/hugo.yml/badge.svg)](https://github.com/Xila-Project/Website/actions/workflows/hugo.yml) |
+| Repository                                             | Description                                                     |
+| :----------------------------------------------------- | :-------------------------------------------------------------- |
+| [**Core**](https://github.com/Xila-Project/Core)       | The Rust-based core operating system and WASM execution engine. |
+| [**Website**](https://github.com/Xila-Project/Website) | The source for [xila.dev](https://xila.dev).                    |
 
-# 📄 Support
+## 💬 Community & Support
 
-The documentation is available here [documentation.xila.dev](https://documentation.xila.dev/ "Xila documentation").
+Join us to discuss development, suggest features, or get help:
 
-If you have any questions or propositions, feel free to open a discussion or issue (or use : [contact@xila.dev](mailto:contact@xila.dev))
+- **Matrix:** [#xila:matrix.org](https://matrix.to/#/#xila:matrix.org)
+- **Email:** [contact@xila.dev](mailto:contact@xila.dev)
 
-# ⏱️ Quick start
+> [!IMPORTANT]  
+> Xila is currently in a **heavy alpha/rewrite phase**. The legacy C++ repositories have been archived to focus entirely on the new Rust/WASM architecture.
 
-- Using : Check [here the documentation](https://documentation.xila.dev/en/latest/Introduction/Get%20started/Use.html) to start using Xila.
+---
 
-- Developing : Check [here the documentation](https://documentation.xila.dev/en/latest/Introduction/Get%20started/Developpment.html) to start to develop software with Xila. 
-
-- Contributing : Check [here the documentation](https://documentation.xila.dev/en/latest/Introduction/Get%20started/Contribute.html) to start to contribute to Xila.
-
-# ❓ About
-
-You can find the dependencies and reused code [here](https://documentation.xila.dev/en/latest/About/Credits.html).
-
-Xila is under [M.I.T. license](https://alix-anneraud.mit-license.org/).
-
-Alix ANNERAUD
+<p align="center">
+  Built with 🦀 by <strong>Alix ANNERAUD</strong> and contributors. <br>
+  Xila is licensed under the <a href="https://alix-anneraud.mit-license.org/">MIT License</a>.
+</p>
