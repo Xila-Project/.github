@@ -63,5 +63,5 @@ Join us to discuss development, suggest features, or get help:
 
 <p align="center">
   Built with 🦀 by <strong>Alix ANNERAUD</strong> and contributors. <br>
-  Xila is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+  Xila is licensed under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU General Public License v2.0</a>.
 </p>
