@@ -53,7 +53,7 @@ Xila acts as a lightweight kernel and abstraction layer for microcontrollers (pr
 
 Join us to discuss development, suggest features, or get help:
 
-- **Matrix:** [#xila:matrix.org](https://matrix.to/#/#xila:matrix.org)
+- **Matrix:** [#xila:anneraud.fr](https://matrix.to/#/#xila:anneraud.fr)
 - **Email:** [contact@xila.dev](mailto:contact@xila.dev)
 
 > [!IMPORTANT]  
@@ -63,5 +63,5 @@ Join us to discuss development, suggest features, or get help:
 
 <p align="center">
   Built with 🦀 by <strong>Alix ANNERAUD</strong> and contributors. <br>
-  Xila is licensed under the <a href="https://alix-anneraud.mit-license.org/">MIT License</a>.
+  Xila is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 </p>
